@@ -8,6 +8,7 @@
 
   /* shared styles */
   body {
+    width: 1440px;
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -121,6 +122,64 @@
     font-size: 0.8rem;
     color: rgba(120, 120, 133, 1);
     margin-top: 0px;
+  }
+  .instruction {
+    color: rgba(224, 44, 109, 0.87);
+    text-align: right;
+    margin-top: 50px;
+  }
+  /* featured products related styles */
+  .final-section {
+    width: 1110px;
+    height: 270px;
+    display: flex;
+    gap: 96px;
+    margin: 100px auto;
+  }
+  .final-section-title {
+    font-size: 2.25rem;
+    margin-bottom: 16px;
+  }
+  .final-section-description {
+    color: rgba(108, 108, 108, 1);
+    margin-top: 16px;
+  }
+  .btn-secondary {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(224, 44, 109, 1);
+    padding: 10px 24px;
+    border: none;
+    margin-top: 16px;
+  }
+
+  /* footer related styles */
+  footer {
+    padding: 50px 589px;
+    background-color: rgba(10, 8, 38, 1);
+    text-align: center;
+  }
+  footer h4 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.5rem;
+    margin-bottom: 3px;
+  }
+  .footer-info {
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: rgba(217, 219, 225, 1);
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  .footer-icon {
+    margin-top: 17px;
+  }
+  .footer-icon i {
+    color: rgba(255, 255, 255, 1);
+   padding: 16px;
+  }
+  .footer-section {
+    width: 262px;
+    height: 139px;
   }
 
   /* responsive for mobile devices */
