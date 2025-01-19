@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* shared styles */
+  body {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .bold-text {
+    font-weight: 700;
+  }
+  .semibold-text {
+    font-weight: 600;
+  }
+  .btn-primary {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(224, 44, 109, 1);
+    padding: 10px 24px;
+    border-radius: 41px;
+    border: none;
+    margin-top: 16px;
+  }
+
+  /* navbar related styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar h4 {
+    font-size: 1.5rem;
+  }
+  .navbar ul {
+    display: flex;
+    gap: 34px;
+  }
+  .navbar ul li {
+    list-style: none;
+  }
+
+  /* banner related styles */
+  .banner {
+    display: flex;
+    gap: 400px;
+  }
+  .banner-info {
+    width: 590px;
+    margin-top: 135px;
+  }
+  .banner-info h1 {
+    font-size: 3.25rem;
+    margin-bottom: 16px;
+  }
+  .banner-info p {
+    width: 505px;
+    margin-bottom: 16px;
+  }
+  .main-image {
+    width: 100%;
+  }
+  .banner-profile img {
+    width: 440px;
+    margin-top: 30px;
+  }
+  .banner-profile {
+    background-image: url("../images/Circle\ design.svg");
+    margin-top: 50px;
+  }
+  .banner-images {
+    width: 1110px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 60px;
+    justify-content: center;
+    border: 1px solid #C0CCDA;
+    padding: 36px 62px;
+    margin: 140px auto;
+  }
+
+  /* popular collection related style */
+  .popular {
+    width: 1047px;
+    height: 1662px;
+    margin: 0 auto;
+  }
+  .popular-collection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  .popular h3 {
+    font-size: 1.75rem;
+    text-align: center;
+  }
+  .card {
+    width: 300px;
+    height: 435px;
+    padding: 17px 15px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+  }
+  .card-title {
+    font-weight: 500;
+    font-size: 1.75rem;
+    margin-bottom: 6px;
+  }
+  .card-price {
+    font-size: 1.5rem;
+    margin-top: 6px;
+    margin-bottom: 0px;
+  }
+  .card-description {
+    width: 196px;
+    height: 61px;
+    font-size: 0.8rem;
+    color: rgba(120, 120, 133, 1);
+    margin-top: 0px;
+  }
+
+  /* responsive for mobile devices */
+  
+  
+  
